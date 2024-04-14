@@ -1,0 +1,105 @@
+<! DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTH-8">
+  <title>Umfrage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="container>
+   <header class="header">
+   <h1 id="title">Süßigkeiten-Präferenzen: Gummibärchen vs. Schokolade</h1>
+  <p id="description"><strong>Vielen Dank, dass Sie sich die Zeit nehmen, an dieser Umfrage teilzunehmen.</strong></p>
+  </header>
+  <form id="survey-form">
+   <div class="form-group">
+     <label for="name" id="name-label"><strong>Name:</label>
+    <input id="name" type="text" name="name" class="form-control" required placeholder="Geben Sie Ihren Namen ein"/>
+    </div>
+   <div class="form-group">
+     <label for="email" id="email-label">E-Mail:</label>
+    <input id="email" type="email" name="email" class="form-control" required placeholder="Geben Sie Ihre E-Mail ein"/>
+    </div>
+    <div class="form-group">
+      <label for="number" id="number-label">Alter:</label>
+    <input type="number"  id="number" name="number" class="form-control" required min="20" max="45" placeholder="Geben Sie Ihr Alter ein" style="width: auto;">
+   </div>
+   
+   <div class="form-group">
+     <h2>Essgewohnheiten</h2>  
+     <p>Was mögen Sie lieber?</p>
+    <select id="dropdown" name="role" class="form-control" required> 
+      <option disabled selected value>Wählen Sie</option>
+      <option value="gummibärchen">Gummibärchen</option>
+      <option value="schokolade">Schokolade</option>
+      <option value="beides">Beides</option>
+      <option value="keins von beides">Keins von beiden</option>
+    </select>
+    </div>
+    <div class="form-group">
+      <p>Was essen Sie, wenn Sie keine Gummibärchen oder Schokolade haben?</p>
+
+    <label>
+    <input type="radio" id="chips" name="user-recommend" value="chips" class="input-radio" checked>Chips</input>
+    </label>
+
+    <label>
+    <input type="radio" id="kekse" name="user-recommend" value="kekse" class="input-radio">Kekse</input>
+    </label>
+
+    <label>
+    <input type="radio" name="user-recommend" id="gar nichts" name="snack" value="gar nichts" class="input-radio">Gar nichts</input>
+    </label>
+     
+    <div class="form-group">
+     <h2>Markenpräferenzen</h2>
+    <p><span class="clue">Wählen Sie zutreffend:</span></p> 
+    <div>
+     <label>
+      <input name="prefer" value="haribo (Gummibärchen)" type="checkbox" class="input-checkbox">Haribo (Gummibärchen)</input>
+    </label>
+    </div>
+    <div>
+    <label>
+    <input type="checkbox" class=" input-checkbox" name="prefer" value="trolli (Gummibärchen)">Trolli (Gummibärchen)</input>
+    </label>
+    </div>
+    <div>
+     <label>
+    <input type="checkbox" class=" input-checkbox" name="prefer" value="nimm2 (Gummibärchen)">Nimm2(Gummibärchen)</input>
+    </label>
+    </div>
+    <div>
+     <label>
+    <input type="checkbox" class=" input-checkbox" name="prefer" value="milka(Schokolade)">Milka(Schokolade)</input>
+    </label>
+    </div>
+    <div>
+     <label>
+    <input type="checkbox" class=" input-checkbox" name="prefer" value="rittersport (Schokolade)">Rittersport (Schokolade)</input>
+    </label>
+    </div>
+    <div>
+     <label>
+    <input type="checkbox" class=" input-checkbox" name="prefer" value="lindt (Schokolade)">Lindt(Schokolade)</input>
+    </label>
+  </div>
+  <div class="form-group">
+          <p>Kommentare und Vorschläge: </p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Fügen Sie Ihren Kommentar..."></textarea>
+   </div>
+   <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Absenden
+          </button>
+    </div>
+    <p class="danke">Vielen Dank für Ihre Zeit!!!</p>
+
+   </form>  
+   
+
+ </div>
+  <p class="copyright">Coded by Magdalena Zyglewicz</p>
+ </body>
+

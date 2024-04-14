@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://image.stern.de/32577452/t/XJ/v2/w1440/r1.7778/-/schokolade-vs-gummiba-r.jpg');
+    background-size: cover; 
+    background-position: center; /
+  }
+  h1 {
+    text-align: center;
+  }
+  #description {
+    text-align: center; 
+   
+  }
+  form {
+    background-color:#79c2d0;
+    width: 550px;
+    height:850px;
+    margin: 0 auto;
+    border-radius: 15px
+  }
+    
+
+    .form-group {
+        margin-bottom: 5px; 
+        padding: 10px;
+        
+    }
+    .form-group div {
+    margin-bottom: 5px; 
+}
+       fieldset div {
+        margin-bottom: 15px;
+    }
+      
+    .checkbox-group label {
+        display: block;
+        margin-bottom: 10px; 
+        }
+        .input-textarea {
+  width: 100%;
+}
+        
+ 
+
+        .submit-button {
+         width: 100%;
+         border-radius: 5px;
+     }
+    .danke {
+      text-align: center
+    }
+    .copyright {
+      text-align: center;
+    }
